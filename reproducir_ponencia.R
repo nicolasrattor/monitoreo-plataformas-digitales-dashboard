@@ -3,7 +3,6 @@
 # "¿Transición a la formalidad en los trabajadores de plataformas digitales?
 #  Discutiendo los efectos de la Ley 21.431 de Chile"
 #
-# Ubicación sugerida: monitoreo_plataformas_digitales-main/scripts_R/
 # Entradas (relativas a la raíz del proyecto, PROY_DIR o getwd()):
 #   input/data/ano=YYYY/mes_central=M/part-0.parquet   microdatos ENE (hive)
 #   input/esi_2020-personas.rdata, esi_2021.rdata, ... esi_2025_personas.rdata
@@ -17,7 +16,7 @@
 #   output/tablas/cifras_ponencia.xlsx   (cada cifra del texto vs. valor calculado)
 #   output/tablas/series_ene_ley21431.csv, ic_ene_formales.csv, esi_2020_2025.csv
 #
-# Metodología clave (la misma de scripts_python/compute_series.py):
+# Metodología clave
 #   * Universo Ley 21.431: plataformas_digitales == 1 y al menos una marca
 #     declarada no excluida (redes sociales, streaming, alojamiento, etc.).
 #   * Informalidad: ocup_form (1 formal, 2 informal) entre ese universo.
